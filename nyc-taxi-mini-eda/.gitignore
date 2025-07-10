@@ -1,5 +1,24 @@
+# --- Python build ---
 __pycache__/
-*.pyc
-data/raw/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Environments ---
 .env
-.vscode/settings.json
+.venv/
+venv/
+*.conda
+*.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Data ---
+data/raw/                 
+logs/                     
+plots/*.pdf               
+# data/processed/         
