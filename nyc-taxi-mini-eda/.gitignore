@@ -1,0 +1,24 @@
+# --- Python build ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Environments ---
+.env
+.venv/
+venv/
+*.conda
+*.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Data ---
+data/raw/                 
+logs/                     
+plots/*.pdf               
+# data/processed/         
