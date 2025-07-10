@@ -1,0 +1,6 @@
+pandas==2.2
+matplotlib
+jupyter
+black
+flake8
+pyarrow
