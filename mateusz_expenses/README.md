@@ -3,13 +3,13 @@
 ## Установка и запуск
 
 1. **Скачай проект**  
-   Перейди на страницу проекта в GitHub, нажми **Code → Download ZIP**, распакуй архив в удобную папку.
+   Перейди на страницу главного репозитория roadmap-meta в GitHub, нажми **Code → Download ZIP**, распакуй архив в удобную папку.
 
 2. **Открой PowerShell**  
    Перейди в **корневую папку проекта** (где лежит `pyproject.toml`).  
    Например:  
    ```powershell
-   cd "C:\Users\Имя\Загрузки\mateusz_expenses"
+   cd "C:\Users\Имя\Загрузки\roadmap-meta\mateusz_expenses"
    ```
 
 3. **Установи Python** (если нет)  
