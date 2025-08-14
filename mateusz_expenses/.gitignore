@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Project data (игнорим всё, кроме .gitkeep)
+data/*
+!data/.gitkeep
+
+# Logs and output (игнорим всё, кроме .gitkeep)
+logs/*
+!logs/.gitkeep
+
+plots/*
+!plots/.gitkeep
+
+# CSV файлы в любом месте
+*.csv
+
+# TXT файлы в любом месте
+*.txt
+
+# PNG файлы в любом месте
+*.png
+
+# Игнорим только .md в src/expenses_cli
+src/expenses_cli/*.md
